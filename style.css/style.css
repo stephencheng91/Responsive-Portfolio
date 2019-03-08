@@ -1,0 +1,453 @@
+
+h1{
+    background-color: lightseagreen;
+    padding: 10px;
+    
+    color: whitesmoke;
+
+    margin-bottom: 0px;
+    
+    float: left;
+}
+
+h2{
+    color: Black;
+}
+
+.Borderline{
+    border-style: solid;
+    border-width: 2px;
+    border-color:silver;
+}
+
+.Background{
+
+    position: relative;
+    background-color: grey;
+    width: 100%;
+    height: 1000px;
+
+}
+
+.MainContent{
+    background-color: white;
+    margin-top: 15px;
+    padding: 45px;
+    width: 870px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+
+.SubBorder{
+    border-style: solid;
+    border-width: 2px;
+    border-color: silver;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.AboutMe{
+    float: Right;
+    margin: 21.44px;
+    margin-bottom: 8px;
+    padding-right: 21.44px;
+    border-right: 3px solid silver;
+    line-height: 20px;
+}
+
+.Portfolio{
+    float: right;
+    margin: 21.44px;
+    padding-right: 21.44px;
+    border-right: 3px solid silver;
+    line-height: 20px;
+}
+
+.Contact{
+    float: right;
+    margin: 21.44px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ProfilePicture{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+p{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+dl{
+    font-size: 20px;
+}
+
+h3{
+    color: grey;
+}
+
+.Info{
+    border-style: solid;
+    border-width: 1px;
+    width: 50%;
+    border-color: grey;
+
+    color: lightgray;
+}
+.MessageBox{
+    border-style: solid;
+    border-width: 1px;
+    width: 50%;
+    height: 200px;
+    border-color: gray;
+
+    margin-bottom: 15px;
+}
+.SubmitButton{
+    color: whitesmoke;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+
+    width: 5%;
+}
+
+
+.Position{
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+.bottom{
+    position: absolute;
+    color: whitesmoke;
+    background-color: lightseagreen;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px 10px 0px 10px;
+
+    width: 310px;
+    height: 20px;
+    bottom: 12%;
+}
+
+@media only screen and (max-width: 768px)
+{
+    h1{
+        background-color: lightseagreen;
+        padding: 10px;
+        
+        color: whitesmoke;
+    
+        margin-bottom: 0px;
+        
+        float: left;
+    }
+    
+    h2{
+        color: Black;
+    }
+    
+    .Borderline{
+        border-style: solid;
+        border-width: 2px;
+        border-color:silver;
+    }
+    
+    .Background{
+    
+        position: relative;
+        background-color: grey;
+        width: 100%;
+        height: 1000px;
+    
+    }
+    
+    .MainContent{
+        background-color: lightgreen;
+        margin-top: 15px;
+        padding: 45px;
+        width: 768px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        
+    }
+    
+    
+    .SubBorder{
+        border-style: solid;
+        border-width: 2px;
+        border-color: silver;
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    
+    .AboutMe{
+        float: Right;
+        margin: 21.44px;
+        margin-bottom: 8px;
+        padding-right: auto;
+        border-right: auto solid silver;
+        line-height: 10px;
+    }
+    
+    .Portfolio{
+        float: right;
+        margin: 21.44px;
+        padding-right: auto;
+        border-right: auto solid silver;
+        line-height: 10px;
+    }
+    
+    .Contact{
+        float: right;
+        margin: 21.44px;
+    }
+    
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    .ProfilePicture{
+        float: left;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    p{
+        float: left;
+        width: 30%;
+        margin-left: 5%;
+        font-size: 20px;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+    
+    dl{
+        font-size: 20px;
+    }
+    
+    h3{
+        color: grey;
+    }
+    
+    .Info{
+        border-style: solid;
+        border-width: 1px;
+        width: 50%;
+        border-color: grey;
+    
+        color: lightgray;
+    }
+    .MessageBox{
+        border-style: solid;
+        border-width: 1px;
+        width: 50%;
+        height: 200px;
+        border-color: gray;
+    
+        margin-bottom: 15px;
+    }
+    .SubmitButton{
+        color: whitesmoke;
+        background-color: aqua;
+        padding: 10px;
+        text-align: center;
+    
+        width: 5%;
+    }
+    
+    
+    .Position{
+        position: relative;
+        text-align: center;
+        float: left;
+    }
+    
+    .bottom{
+        position: absolute;
+        color: whitesmoke;
+        background-color: lightseagreen;
+    
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px 10px 0px 10px;
+    
+        width: 310px;
+        height: 20px;
+        bottom: 12%;
+    } 
+}
+
+@media only screen and (max-width: 640px)
+{
+    h1{
+        background-color: lightblue;
+        padding: 10px;
+        
+        color: whitesmoke;
+    
+        margin-bottom: 0px;
+        
+        float: left;
+    }
+    
+    h2{
+        color: Black;
+    }
+    
+    .Borderline{
+        border-style: solid;
+        border-width: 2px;
+        border-color:silver;
+    }
+    
+    .Background{
+    
+        position: relative;
+        background-color: grey;
+        width: 100%;
+        height: 1000px;
+    
+    }
+    
+    .MainContent{
+        background-color: blue;
+        margin-top: 15px;
+        padding: 45px;
+        width: 640px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        
+    }
+    
+    
+    .SubBorder{
+        border-style: solid;
+        border-width: 2px;
+        border-color: silver;
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    
+    .AboutMe{
+        float: Right;
+        margin: 21.44px;
+        margin-bottom: 8px;
+        padding-right: 21.44px;
+        border-right: 3px solid silver;
+        line-height: 20px;
+    }
+    
+    .Portfolio{
+        float: right;
+        margin: 21.44px;
+        padding-right: 21.44px;
+        border-right: 3px solid silver;
+        line-height: 20px;
+    }
+    
+    .Contact{
+        float: right;
+        margin: 21.44px;
+    }
+    
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    .ProfilePicture{
+        float: left;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    p{
+        float: left;
+        width: 30%;
+        margin-left: 5%;
+        font-size: 20px;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+    
+    dl{
+        font-size: 20px;
+    }
+    
+    h3{
+        color: grey;
+    }
+    
+    .Info{
+        border-style: solid;
+        border-width: 1px;
+        width: 50%;
+        border-color: grey;
+    
+        color: lightgray;
+    }
+    .MessageBox{
+        border-style: solid;
+        border-width: 1px;
+        width: 50%;
+        height: 200px;
+        border-color: gray;
+    
+        margin-bottom: 15px;
+    }
+    .SubmitButton{
+        color: whitesmoke;
+        background-color: aqua;
+        padding: 10px;
+        text-align: center;
+    
+        width: 5%;
+    }
+    
+    
+    .Position{
+        position: relative;
+        text-align: center;
+        float: left;
+    }
+    
+    .bottom{
+        position: absolute;
+        color: whitesmoke;
+        background-color: lightseagreen;
+    
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px 10px 0px 10px;
+    
+        width: 310px;
+        height: 20px;
+        bottom: 12%;
+    } 
+}
